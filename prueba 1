@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+	</head>
+	<body>
+
+		<a href="Articulos.html">
+			<button>Articulos y segunda parte
+			</button>
+
+		</a>
+		
+		<!-- Headings -->
+		<h1>Heading One</h1>
+		<h2>Heading Two</h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h6>
+
+		<!-- Paragraph -->
+		<p>
+			Lorem <strong>ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod
+			tempor <em>incididunt ut labore et dolore magna aliqua</em>. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit <a href="http://google.com" target="_tab">anim id est laborum.</a>
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<!-- Lists -->
+		<ul> <!-- unordered List -->
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ul>
+
+		<ol> <!-- Ordered List -->
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ol>
+
+		<br>
+		<br>
+		<br>
+
+		<!-- Tables -->
+		<table>
+			<thead><!-- Table head (Nombre, mail, edad que vamos a listar)-->
+				<tr><!-- Table Row -->
+					<th>Nombre</th><!-- Table Heading -->
+					<th>Email</th>
+					<th>Edad</th>
+				</tr>
+			</thead>
+			<tbody><!-- Table Body (data Actual) -->
+				<tr>
+					<td>Milton M</td>
+					<td>milton@algo.com</td>
+					<td>32</td>
+				</tr>
+				<tr>
+					<td>Juan Perez</td>
+					<td>Juangenerico@gmail.com</td>
+					<td>99</td>
+				</tr>
+				<tr>
+					<td>Felicia Price</td>
+					<td>Blackcat@altavista.com</td>
+					<td>20</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br><!-- bracket o espacio de separacion sin usar css -->
+		<hr><!-- Horizontal Rule o Linea de separacion -->
+		<br>
+
+		<!-- Forms -->
+
+		<form action="process.php" method="POST">
+			<div>
+				<label>Nombre</label>
+				<input type="text" name="nombre" placeholder="Ingresa tu primer nombre">
+			</div>
+			<br>
+			<div>
+				<label>Apellido</label>
+				<input type="text" name="apellido">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Mensajes</label>
+				<input type="text" name="mensajes">
+			</div>
+			<br>
+			<div>
+				<label>Genero</label>
+				<select name="Género">
+					<option value="Hombre">Hombre</option>
+					<option value="Mujer">Mujer</option>
+					<option value="Otro">Otro</option>
+					<option value="Helicoptero">Helicoptero de combate</option>
+				</select>
+			<br>
+			<br>
+			<div>
+				<label>Especificar</label>
+				<input type="text" name="otrogenero">	
+			</div>
+			<br>
+			</div>	
+			<div>
+				<label>Edad:</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>
+				<label>Fecha de nacimiento</label>
+				<input type="date" name="cumpleaños">
+			</div>
+			<br>
+			<input type="submit" name="submit">
+
+		</form>
+
+			<br>
+
+			<div>
+		<!-- Ejemplo Boton que no hace nada -->
+		<button>Click me!</button>
+			</div>
+
+			<br>
+
+			<div>
+		<!-- imagen -->
+		<a href="images/mad.jpg">
+		<img src="images/mad.jpg" alt="I AIN´T EVEN MAD" width="200">
+		</a>
+			</div>
+
+		<!-- Citas o Quotations -->
+		<div>
+			<blockquote cite="http://google.com">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</blockquote>
+		</div>
+
+		<div>
+			<p>Esta frase esta de <abbr title="Ejemplo"> ej... </abbr></p>
+		</div>
+
+		<div>
+			
+			<p><cite>Practica plantilla HTML <a href="https://steamcommunity.com/id/Nsharps/" target="_tab">&copy;Milton Maurenzi</a> 2019</cite>
+			</p>
+
+		</div>
+
+
+			<div style="margin-top: 200px;"></div>
+	</body>
+</html>
